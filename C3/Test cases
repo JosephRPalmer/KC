@@ -1,0 +1,9 @@
+Test cases
+
+{} - No value found - not implemented within the time 
+{"a":"b"}  - find a - returns b
+{"a":{"b":"c"}} - find a - returns {b:c}
+{"a":{"b":"c"}} - find b - returns c
+{"a":"b", "c":"d"} - find a or c - returns No value found - not implemented within the time 
+{"a": {"b": "c"}, "d": "e"} - find a or b or d - returns No value found - not implemented within the time 
+{"a": {}} - find a - returns No value found - not implemented within the time 
